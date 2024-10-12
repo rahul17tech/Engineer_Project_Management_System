@@ -1,0 +1,72 @@
+[
+    {
+        "projectName": "Spring",
+        "engineer": [
+            {
+                "engineerName": "Rahul"
+            },
+            {
+                "engineerName": "Kushal"
+            },
+            {
+                "engineerName": "Sreeja"
+            }
+        ]
+    },
+    {
+        "projectName": "Zen",
+        "engineer": [
+            {
+                "engineerName": "Soumita"
+            },
+            {
+                "engineerName": "Soumili"
+            },
+            {
+                "engineerName": "Ishani"
+            }
+        ]
+    },
+    {
+        "projectName": "Gen",
+        "engineer": [
+            {
+                "engineerName": "Sourav"
+            },
+            {
+                "engineerName": "Soham"
+            },
+            {
+                "engineerName": "Souvik"
+            }
+        ]
+    },
+    {
+        "projectName": "Open",
+        "engineer": [
+            {
+                "engineerName": "Akshat"
+            },
+            {
+                "engineerName": "Aninda"
+            },
+            {
+                "engineerName": "Rishita"
+            }
+        ]
+    },
+    {
+        "projectName": "JS",
+        "engineer": [
+            {
+                "engineerName": "Debj"
+            },
+            {
+                "engineerName": "Aniket"
+            },
+            {
+                "engineerName": "Ritama"
+            }
+        ]
+    }
+]
