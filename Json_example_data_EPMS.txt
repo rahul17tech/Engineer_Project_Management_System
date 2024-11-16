@@ -1,71 +1,361 @@
 [
     {
         "projectName": "Spring",
+        "projectDescription": "Developing RESTful APIs for an online bookstore.",
         "engineer": [
             {
-                "engineerName": "Rahul"
+                "engineerName": "Rahul",
+                "role": "Backend Developer"
             },
             {
-                "engineerName": "Kushal"
+                "engineerName": "Kushal",
+                "role": "Frontend Developer"
             },
             {
-                "engineerName": "Sreeja"
+                "engineerName": "Sreeja",
+                "role": "QA Engineer"
             }
         ]
     },
     {
         "projectName": "Zen",
+        "projectDescription": "Building an e-learning platform for interactive education.",
         "engineer": [
             {
-                "engineerName": "Soumita"
+                "engineerName": "Soumita",
+                "role": "UI/UX Designer"
             },
             {
-                "engineerName": "Soumili"
+                "engineerName": "Soumili",
+                "role": "Full-Stack Developer"
             },
             {
-                "engineerName": "Ishani"
+                "engineerName": "Ishani",
+                "role": "DevOps Engineer"
             }
         ]
     },
     {
         "projectName": "Gen",
+        "projectDescription": "Creating a genetic analysis tool for researchers.",
         "engineer": [
             {
-                "engineerName": "Sourav"
+                "engineerName": "Sourav",
+                "role": "Data Scientist"
             },
             {
-                "engineerName": "Soham"
+                "engineerName": "Soham",
+                "role": "Software Engineer"
             },
             {
-                "engineerName": "Souvik"
+                "engineerName": "Souvik",
+                "role": "Database Administrator"
             }
         ]
     },
     {
         "projectName": "Open",
+        "projectDescription": "Developing an open-source library management system.",
         "engineer": [
             {
-                "engineerName": "Akshat"
+                "engineerName": "Akshat",
+                "role": "Project Manager"
             },
             {
-                "engineerName": "Aninda"
+                "engineerName": "Aninda",
+                "role": "Frontend Developer"
             },
             {
-                "engineerName": "Rishita"
+                "engineerName": "Rishita",
+                "role": "QA Engineer"
             }
         ]
     },
     {
         "projectName": "JS",
+        "projectDescription": "Creating a JavaScript framework for faster web development.",
         "engineer": [
             {
-                "engineerName": "Debj"
+                "engineerName": "Debj",
+                "role": "Core Developer"
             },
             {
-                "engineerName": "Aniket"
+                "engineerName": "Aniket",
+                "role": "Documentation Specialist"
             },
             {
-                "engineerName": "Ritama"
+                "engineerName": "Ritama",
+                "role": "Technical Writer"
+            }
+        ]
+    },
+    {
+        "projectName": "HealthAI",
+        "projectDescription": "Building an AI-powered health monitoring app.",
+        "engineer": [
+            {
+                "engineerName": "Neha",
+                "role": "AI Engineer"
+            },
+            {
+                "engineerName": "Ravi",
+                "role": "Frontend Developer"
+            },
+            {
+                "engineerName": "Meera",
+                "role": "Backend Developer"
+            }
+        ]
+    },
+    {
+        "projectName": "EduMate",
+        "projectDescription": "A platform for collaborative learning and knowledge sharing.",
+        "engineer": [
+            {
+                "engineerName": "Tanish",
+                "role": "UI Designer"
+            },
+            {
+                "engineerName": "Madhur",
+                "role": "DevOps Engineer"
+            },
+            {
+                "engineerName": "Rashi",
+                "role": "Frontend Developer"
+            }
+        ]
+    },
+    {
+        "projectName": "EcoGo",
+        "projectDescription": "A green initiative app for promoting sustainable living.",
+        "engineer": [
+            {
+                "engineerName": "Ishan",
+                "role": "App Developer"
+            },
+            {
+                "engineerName": "Avni",
+                "role": "Backend Engineer"
+            },
+            {
+                "engineerName": "Kriti",
+                "role": "Product Designer"
+            }
+        ]
+    },
+    {
+        "projectName": "AutoML",
+        "projectDescription": "Developing tools for automated machine learning workflows.",
+        "engineer": [
+            {
+                "engineerName": "Amit",
+                "role": "Data Engineer"
+            },
+            {
+                "engineerName": "Priya",
+                "role": "AI Researcher"
+            },
+            {
+                "engineerName": "Karan",
+                "role": "Software Developer"
+            }
+        ]
+    },
+    {
+        "projectName": "FitTrack",
+        "projectDescription": "Fitness tracking app integrated with wearable devices.",
+        "engineer": [
+            {
+                "engineerName": "Arjun",
+                "role": "App Developer"
+            },
+            {
+                "engineerName": "Vaishnavi",
+                "role": "UI/UX Designer"
+            },
+            {
+                "engineerName": "Samir",
+                "role": "Data Analyst"
+            }
+        ]
+    },
+    {
+        "projectName": "CodeCollab",
+        "projectDescription": "A real-time collaborative coding platform.",
+        "engineer": [
+            {
+                "engineerName": "Ananya",
+                "role": "Product Manager"
+            },
+            {
+                "engineerName": "Kush",
+                "role": "Backend Engineer"
+            },
+            {
+                "engineerName": "Aryan",
+                "role": "Frontend Engineer"
+            }
+        ]
+    },
+    {
+        "projectName": "MedLine",
+        "projectDescription": "A telemedicine platform connecting patients and doctors.",
+        "engineer": [
+            {
+                "engineerName": "Simran",
+                "role": "Full-Stack Developer"
+            },
+            {
+                "engineerName": "Rohit",
+                "role": "Database Administrator"
+            },
+            {
+                "engineerName": "Sneha",
+                "role": "QA Tester"
+            }
+        ]
+    },
+    {
+        "projectName": "TravelEase",
+        "projectDescription": "An app for planning and booking travel itineraries.",
+        "engineer": [
+            {
+                "engineerName": "Nisha",
+                "role": "Frontend Developer"
+            },
+            {
+                "engineerName": "Manoj",
+                "role": "Backend Engineer"
+            },
+            {
+                "engineerName": "Aditya",
+                "role": "DevOps Engineer"
+            }
+        ]
+    },
+    {
+        "projectName": "SafeHome",
+        "projectDescription": "A smart home security system with IoT integration.",
+        "engineer": [
+            {
+                "engineerName": "Sonal",
+                "role": "IoT Specialist"
+            },
+            {
+                "engineerName": "Nikhil",
+                "role": "AI Developer"
+            },
+            {
+                "engineerName": "Esha",
+                "role": "Firmware Developer"
+            }
+        ]
+    },
+    {
+        "projectName": "PetBuddy",
+        "projectDescription": "An app for pet care and veterinary services.",
+        "engineer": [
+            {
+                "engineerName": "Akriti",
+                "role": "Frontend Engineer"
+            },
+            {
+                "engineerName": "Raj",
+                "role": "Backend Engineer"
+            },
+            {
+                "engineerName": "Siddharth",
+                "role": "UX Researcher"
+            }
+        ]
+    },
+    {
+        "projectName": "Learnly",
+        "projectDescription": "Gamified learning for children aged 6-12.",
+        "engineer": [
+            {
+                "engineerName": "Tanvi",
+                "role": "Game Developer"
+            },
+            {
+                "engineerName": "Ayaan",
+                "role": "Illustrator"
+            },
+            {
+                "engineerName": "Rhea",
+                "role": "Content Creator"
+            }
+        ]
+    },
+    {
+        "projectName": "FinWise",
+        "projectDescription": "Personal finance management and budgeting app.",
+        "engineer": [
+            {
+                "engineerName": "Abhay",
+                "role": "Full-Stack Developer"
+            },
+            {
+                "engineerName": "Komal",
+                "role": "Data Analyst"
+            },
+            {
+                "engineerName": "Raghu",
+                "role": "QA Engineer"
+            }
+        ]
+    },
+    {
+        "projectName": "GreenAI",
+        "projectDescription": "AI models for environmental monitoring and analysis.",
+        "engineer": [
+            {
+                "engineerName": "Pooja",
+                "role": "AI Researcher"
+            },
+            {
+                "engineerName": "Tarun",
+                "role": "Data Engineer"
+            },
+            {
+                "engineerName": "Alisha",
+                "role": "Software Developer"
+            }
+        ]
+    },
+    {
+        "projectName": "ChefMate",
+        "projectDescription": "A virtual assistant for recipes and meal planning.",
+        "engineer": [
+            {
+                "engineerName": "Nikita",
+                "role": "Product Manager"
+            },
+            {
+                "engineerName": "Kunal",
+                "role": "AI Engineer"
+            },
+            {
+                "engineerName": "Sagar",
+                "role": "Frontend Engineer"
+            }
+        ]
+    },
+    {
+        "projectName": "RideShare",
+        "projectDescription": "A platform for carpooling and ride-sharing.",
+        "engineer": [
+            {
+                "engineerName": "Ramesh",
+                "role": "Backend Developer"
+            },
+            {
+                "engineerName": "Leena",
+                "role": "UI/UX Designer"
+            },
+            {
+                "engineerName": "Varun",
+                "role": "Mobile App Developer"
             }
         ]
     }
