@@ -20,6 +20,12 @@ public class EngineerDTO {
 	@NotBlank(message = "Invalid: Engineer name cannot be blank!!")
 	@Size(min = 3, max = 30, message = "Invalid Engineer name: must be of 3 - 30 characters")
 	private String engineerName;
+
+	@NotNull(message = "Invalid: Engineer role cannot be null!!")
+	@NotBlank(message = "Invalid: Engineer role cannot be blank!!")
+	@Size(min = 3, max = 30, message = "Invalid Engineer role: must be of 3 - 30 characters")
+	private String role;
+
 	@JsonIgnore
 	private ProjectDTO project;
 

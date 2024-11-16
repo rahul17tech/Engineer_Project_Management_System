@@ -27,6 +27,7 @@ public class Engineer {
 	private Long eid;
 
 	private String engineerName;
+	private String role;
 
 	@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
 	@JoinColumn(name = "proj_id", referencedColumnName = "pid")

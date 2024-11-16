@@ -28,6 +28,7 @@ public class Project {
 	private Long pid;
 
 	private String projectName;
+	private String projectDescription;
 	@OneToMany(mappedBy = "project", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<Engineer> engineer;
 

@@ -89,6 +89,7 @@ public class ProjectService {
 
 		Project _temp = toProject(p);
 		_p.setProjectName(_temp.getProjectName()); // updating the project name..
+		_p.setProjectDescription(_temp.getProjectDescription()); // updating project description..
 
 		if (eid != null) { // if eid passed, then remove that eid..
 			Engineer _e = engineerRepository.findById(eid)
@@ -102,7 +103,6 @@ public class ProjectService {
 			}
 
 		}
-		// _p.setEngineer(_temp.getEngineer());
 
 		return toProjectDTO(projectRepository.save(_p));
 
