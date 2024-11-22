@@ -3,6 +3,7 @@ package com.example.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -18,6 +19,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/engineer")
+@CrossOrigin(origins = "http://localhost:3000")
 public class EngineerController {
 
 	@Autowired
@@ -34,8 +36,7 @@ public class EngineerController {
 	}
 
 	@PutMapping("/update")
-	public ResponseEntity<EngineerDTO> updateE(@RequestParam Long id, @RequestParam(required = false) Long projid,
-			@RequestBody @Valid EngineerDTO e) {
-		return new ResponseEntity<>(engineerService.updateEngineer(id, projid, e), HttpStatus.OK);
+	public ResponseEntity<EngineerDTO> updateE(@RequestParam Long id, @RequestBody @Valid EngineerDTO e) {
+		return new ResponseEntity<>(engineerService.updateEngineer(id, e), HttpStatus.OK);
 	}
 }
